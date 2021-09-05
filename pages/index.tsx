@@ -38,7 +38,7 @@ const Home: NextPage = (props) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Easy Blocker</title>
+        <title>Twitter Block Tool</title>
         <meta name="description" content="Twitter Block Tool" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
