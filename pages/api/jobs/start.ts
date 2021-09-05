@@ -12,7 +12,7 @@ export default async function handler(
   res: NextApiResponse<Data>
 ) {
   const session: any = await getSession({ req });
-  const cursor = req.body.cursor || -1;
+  const cursor = req.body.cursor;
   const twitterClient = new TwitterClient(
     session.accessToken,
     session.refreshToken,
