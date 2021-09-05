@@ -3,9 +3,16 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { signIn, signOut, useSession } from "next-auth/client";
 
+const startClear = async function () {
+  // const res = await fetch("http://127.0.0.1:3000/api/jobs/start", {
+  //   method: "POST",
+  //   body: JSON.stringify({ cursor: 1708745090317597000 }),
+  // });
+  // console.log(res);
+};
+
 const Home: NextPage = () => {
   const [session, loading] = useSession();
-  const startClear = function () {};
 
   return (
     <div className={styles.container}>
