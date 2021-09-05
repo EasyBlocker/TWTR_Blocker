@@ -83,7 +83,9 @@ const Home: NextPage = (props) => {
 
             <div className={styles.code}>
               <p>Tips:</p>
-              <li>该服务不会存储您的任何信息，关掉网页即刻销毁</li>
+              <li>不要刷新页面！不要刷新页面！不要刷新页面！</li>
+              <li>刷新页面后需要重新开始</li>
+              <li>该服务不会存储您的任何信息</li>
               <li>But用完还是应该去Twitter里设置里取消对该应用的授权</li>
               <li>免费的Twitter开发者账户有请求限制，速度会比较慢</li>
               <li>请不要关闭页面，请耐心等待完成</li>
