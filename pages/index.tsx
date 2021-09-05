@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 
         {session && (
           <>
-            {session.user.image} <br />
+            {session.user?.image} <br />
             <button onClick={() => startClear()}>Start</button>
             <button onClick={() => signOut()}>Sign out</button>
           </>
